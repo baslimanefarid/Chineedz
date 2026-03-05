@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChineeDZ</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>CHINEEDZ</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="products">
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+
+<h3>Street T-Shirt</h3>
+
+<p>2500 DA</p>
+
+<button onclick="addToCart('Street T-Shirt',2500)">Add to cart</button>
+
+</div>
+
+
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1">
+
+<h3>Cargo Pants</h3>
+
+<p>4200 DA</p>
+
+<button onclick="addToCart('Cargo Pants',4200)">Add to cart</button>
+
+</div>
+
+
+
+<div class="product">
+
+<img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7">
+
+<h3>Urban Jacket</h3>
+
+<p>4800 DA</p>
+
+<button onclick="addToCart('Urban Jacket',4800)">Add to cart</button>
+
+</div>
+
+</section>
+
+
+<section class="cart">
+
+<h2>Cart</h2>
+
+<ul id="cart-items"></ul>
+
+<p id="total"></p>
+
+<button onclick="orderWhatsApp()">Commander via WhatsApp</button>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
